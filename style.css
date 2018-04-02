@@ -9,7 +9,18 @@ Version: 1.0
 
 
 */
-
+*{
+	border: 1px solid red;
+}
 body{
-	background: olive;
+	background: red;
+	color: red;
+}
+
+header{
+	background: orange;
+}
+
+.content {
+	padding: 10px;
 }
