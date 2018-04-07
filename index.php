@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="<?php bloginfo(stylesheet_url) ?>">
+	
+	<?php 	get_header() ?>
 </head>
 <body>
 	<header>
@@ -22,7 +21,7 @@
 					<p><?php the_excerpt(); ?></p>
 					<a href="<?php 	the_permalink( ); ?>">asdfafds</a>
 					<figure>
-						<?php echo the_post_thumbnail('full' ); ?>
+						<?php echo the_post_thumbnail('mySize' ); ?>
 					</figure>
 					<footer>
 						<strong><?php the_author( $deprecated = '', $deprecated_echo = true ) ?></strong>
