@@ -31,8 +31,7 @@
         <h4>No hemos encontrado resultados</h4>
      <!-- no posts found -->
      <?php endif; ?>
-    <?php
-        
-    ?>
+
+         
  </section>
 <?php get_footer('negro'); ?>
